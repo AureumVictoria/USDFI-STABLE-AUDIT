@@ -1,7 +1,5 @@
 /**
  * @title USDFI 
- * @dev USDFI contract
- *
  * @author - <USDFI TEAM>
  *
  * SPDX-License-Identifier: MIT
