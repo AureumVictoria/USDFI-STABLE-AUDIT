@@ -1,6 +1,6 @@
 /**
- * @title STABLE MINTER
- * @dev STABLE_MINTER contract
+ * @title USDFI 
+ * @dev USDFI contract
  *
  * @author - <USDFI TEAM>
  *
