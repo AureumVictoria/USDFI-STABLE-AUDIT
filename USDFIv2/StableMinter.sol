@@ -26,9 +26,9 @@ contract STABLE_MINTER is Ownable, ReentrancyGuard {
     uint256 public miningPerSecond;
     uint256 public lastTriggerTime;
 
-    uint256 private constant MAX_MINING_RATE = 2314814814814800;
+    uint256 public constant MAX_MINING_RATE = 2314814814814800;
     address public constant Token = 0xa3870fbBeb730BA99e4107051612af3465CA9F5e;
-    uint16 private constant TOTAL_PERCENT = 10000;
+    uint16 public constant TOTAL_PERCENT = 10000;
 
     event MiningPerSecondChanged(uint256 newRate);
     event ReceiverAndPercentChanged(
